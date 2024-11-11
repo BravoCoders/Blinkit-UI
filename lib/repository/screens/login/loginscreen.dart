@@ -63,7 +63,7 @@ class LoginScreen extends StatelessWidget {
                     width: 295,
                     child: ElevatedButton(
                         onPressed: () {
-                          Navigator.push(
+                          Navigator.pushReplacement(
                               context,
                               MaterialPageRoute(
                                   builder: (context) => BottomNavScreen()));

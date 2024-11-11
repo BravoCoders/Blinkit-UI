@@ -13,10 +13,10 @@ class BottomNavScreen extends StatefulWidget {
 class _BottomNavScreenState extends State<BottomNavScreen> {
   int currentIndex = 0;
   List<Widget> pages = [
-    HomeScreen(),
-    CartScreen(),
-    CategoryScreen(),
-    PrintScreen()
+     HomeScreen(),
+     CartScreen(),
+     CategoryScreen(),
+     PrintScreen()
   ];
   @override
   Widget build(BuildContext context) {
